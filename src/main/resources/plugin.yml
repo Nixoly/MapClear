@@ -1,0 +1,26 @@
+name: NixMapClear
+version: 1.0
+main: me.nixoly.nixmapclear.MapClear
+api-version: '1.17'
+authors: [Nixoly]
+description: Ultimate MapClear plugin
+depend: [PlaceholderAPI]
+commands:
+  mapclear:
+    description: Main command for the MapClear plugin.
+    usage: /<command>
+    tab-completer: me.nixoly.nixmapclear.commands.MapClearTabCompleter
+
+permissions:
+  mapclear.clear:
+    description: Allows clearing the map.
+    default: op
+  mapclear.bypass:
+    description: Allows bypassing the map clearing for placed blocks.
+    default: op
+  mapclear.reload:
+    description: Allows reloading the plugin.
+    default: op
+  mapclear.bypass.onjoin:
+    description: Automatically enables bypass mode on join if configured.
+    default: op
