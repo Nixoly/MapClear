@@ -1,0 +1,41 @@
+help_message:
+  - " "
+  - "&b&lNixMapClear &8&l»"
+  - " &7- &f/mapclear clear &7| &bCleans the placed blocks"
+  - " &7- &f/mapclear bypass &7| &bYour placed blocks will not be removed when the map is cleared"
+  - " &7- &f/mapclear reload &7| &bReload plugin"
+  - " "
+
+
+# Message broadcasted when the map is successfully cleared.
+map_cleared: "&aThe map has been successfully cleared!"
+
+# Message sent to the player when bypass mode is enabled.
+bypass_enabled: "&aBypass mode has been enabled!"
+
+# Message sent to the player when bypass mode is disabled.
+bypass_disabled: "&cBypass mode has been disabled!"
+
+# Message displayed when a command is executed by a non-player (e.g., console or command block).
+player_only: "&cOnly players can use this command."
+
+# Message showing the correct usage of the /mapclear settime command.
+settime_usage: "&cUsage: /mapclear settime <seconds>"
+
+# Message displayed when an invalid or non-positive time value is provided.
+invalid_time: "&cTime must be a positive number."
+
+# Message sent when the map clear interval is successfully updated.
+time_set: "&aMap clear interval set to &e%time% &aseconds."
+
+# Message displayed when a non-numeric value is entered where a number is expected.
+invalid_number: "&cInvalid number format. Please specify a valid time in seconds."
+
+# Message displayed when an invalid subcommand is used.
+invalid_subcommand: "&cInvalid subcommand. Use &e/mapclear <clear|bypass|settime>&c."
+
+# Message sent when the plugin is successfully reloaded.
+plugin_reloaded: "&a&lNixMapClear &8| &aPlugin successfully reloaded!"
+
+# Message displayed when the player does not have permission to execute a command.
+no_permission: "&cYou do not have permission to execute this command."

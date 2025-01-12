@@ -1,0 +1,12 @@
+# MapClear plugin configuration
+
+# Default interval for map clearing (in seconds)
+clear_interval: 9000
+
+# Should players with 'mapclear.bypass.onjoin' permission automatically bypass on join?
+bypass_onjoin_enabled: true
+
+# List of worlds where the MapClear plugin is disabled
+disabled_worlds:
+  - world
+  - exampleworld
